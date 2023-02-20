@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+	int a,b,c,d,e,second;
+	scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+	for(i=1;i<n;i++)
+	if((a>n)||(b>n-1))
+	{
+    second =b;
+	printf(" %d is second largest number",second);
+    }
+}

@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+	int num=1,i;
+	float sum=0.0,fact;
+	while(num<=5)
+	{
+		fact=1;
+		for(i=1;i<=num;i++)
+		{
+			fact=fact/i;
+		}
+		sum=sum+(num*fact);
+		num++; 
+	}
+	printf("%d %d",num,sum);
+}
+		
+	

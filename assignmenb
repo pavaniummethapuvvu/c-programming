@@ -1,0 +1,13 @@
+//write a c program to print multiplication of n value
+#include<stdio.h>
+void main()
+{
+	int i,a,n=1;
+	printf("multiples  table of  n value \n");
+	scanf("%d",&a);
+	for(i=1;i<=10;i++)
+	{
+	printf("%d * %d = %d\n",a,n,n*a);
+	n=n+1;
+    }
+}

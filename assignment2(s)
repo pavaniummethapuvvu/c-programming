@@ -1,0 +1,16 @@
+//write a c program to print sum of digits of a given number until sum is a single digit
+#include<stdio.h>
+void main()
+{
+	int s,i,n,sum=0,first,second;
+	printf("enter n value");
+	scanf("%d",&n);
+	while(i<=n)
+	{
+	  i++;
+      sum =sum+i;
+      first=1,second=5;
+      s=first+second;
+    }
+	printf("the result is %d",s);
+}
